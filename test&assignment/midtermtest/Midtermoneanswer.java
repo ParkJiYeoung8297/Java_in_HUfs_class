@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Midtermoneanswer {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {   #ì´ê²Œ ë©”ì¸ ë©”ì„œë“œì´ê³ ?
 		System.out.println("Selection");
 		System.out.println("1. Summation");
 		System.out.println("2. Factorial");
 		System.out.print("Your choice: ");
-		Scanner input = new Scanner(System.in);
-		int choice = input.nextInt();
+		Scanner input = new Scanner(System.in); #ìƒˆë¡œìš´ ê°’ì„ ì…ë ¥ ë°›ëŠ”ë‹¤
+		int choice = input.nextInt();          
 		System.out.print("Input the sequence number:");
 		int number = input.nextInt(); 
 		
@@ -26,7 +26,7 @@ public class Midtermoneanswer {
 		}
 	}
 	
-	public static int summation(int n) {
+	public static int summation(int n) {   #ì´ê²Œ ì¼ë°˜ ë©”ì„œë“œì¸ê°€?
 	int sum = 0;
 	for (int i=1;i<=n;i++) {
 		System.out.print(i + " ");
@@ -38,7 +38,7 @@ public class Midtermoneanswer {
 	
 	public static int factorial(int n) {
 		int fac=1;
-		for(int i=1;i<=n;i++){/////for(); ÇÏ¸é ¹Ø¿¡¼­ i¾µ¶§ ÃÊ±âÈ­(Á¤ÀÇ) ´Ù½Ã ÇØÁà¾ß ÇÔ so ³×¹ö¿¡¹ö for()µÚ¿¡;±İÁö!!
+		for(int i=1;i<=n;i++){/////for(); í•˜ë©´ ë°‘ì—ì„œ iì“¸ë•Œ ì´ˆê¸°í™”(ì •ì˜) ë‹¤ì‹œ í•´ì¤˜ì•¼ í•¨ so ë„¤ë²„ì—ë²„ for()ë’¤ì—;ê¸ˆì§€!!
 			System.out.print(i + " ");
 			fac*=i;
 			}
