@@ -26,7 +26,7 @@ package Teamproject;
 	private final int a_t = 3500;
 	private final int c_t = 2500;
 
-	public  Order(boolean a, boolean c,int gm, int kf94, int kf80, char d,String p, String cfs, String cfd )
+	public  Order(boolean a, boolean c,int gm, int kf94, int kf80, char d,String p, String cfs, String cfd ) #이게 variable들 (9개)
 	{	
 		Adult = a;
 		Children = c;
@@ -42,7 +42,7 @@ package Teamproject;
 	  
 	}
 	
-	public char getAdult() {
+	public char getAdult() {   #파이썬에서 이게 약간 def로 시작하는 메서드 느낌?
 	 if(Adult)
 	   return 'O';
 	 else 
