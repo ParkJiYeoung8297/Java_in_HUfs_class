@@ -16,7 +16,7 @@ public class firstone {
 		int[][] array= new int[row][column];
 		for(int i=0;i<=row-1;i++) {
 		for(int j=0;j<=column-1;j++) {
-			array[i][j]=(int)(Math.random() * 10);	
+			array[i][j]=(int)(Math.random() * 10);	  #array[i][j] 이거는 행렬을 나타낸다.
 			System.out.print(array[i][j]+" ");
 		}
 		System.out.println(" ");
@@ -35,7 +35,7 @@ public class firstone {
 			}
 		
 		System.out.println("Total: "+ total);
-		System.out.printf("Average:%.2f",(double)total/(row*column));
+		System.out.printf("Average:%.2f",(double)total/(row*column));  #printf 는 문자 출력 함수
 	
 		
 	}
